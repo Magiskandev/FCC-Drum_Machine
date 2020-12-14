@@ -1,0 +1,43 @@
+#drum-machine {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    padding: 30px;
+    color: blue;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#controller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#controller * {
+    margin: 5px 0px;
+}
+
+#drum-machine {
+    display: flex;
+    justify-content: space-between;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 15px;
+}
+
+#display {
+    width: 160px;
+    height: 50px;
+    color: indigo;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px dashed lime;
+    border-radius: 20px;
+    font-size: 15px;
+}

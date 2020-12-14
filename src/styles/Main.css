@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightseagreen;
+}
+
+.drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    color: black;
+    background-color: green;
+    border: 5px double white;
+    border-radius: 20px;
+    margin: 1px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease-in;
+}
+
+.drum-pad:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
